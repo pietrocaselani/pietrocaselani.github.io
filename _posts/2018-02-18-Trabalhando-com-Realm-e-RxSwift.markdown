@@ -83,7 +83,7 @@ final class ThreadWithRunLoopScheduler: ImmediateSchedulerType {
 }
 {% endhighlight %}
 
-E pronto! Agora temos um run loop associado a uma thread e um scheduler que executa ações nessa thread, e dessa forma consegui fazer o app persistir e observar os dados, usando Realm e RxSwift. Para mais informações, você pode encontrar o código do aplicativo aqui.
+E pronto! Agora temos um run loop associado a uma thread e um scheduler que executa ações nessa thread, e dessa forma consegui fazer o app persistir e observar os dados, usando Realm e RxSwift. Para mais informações, você pode encontrar o código do aplicativo [aqui](https://github.com/pietrocaselani/CouchTracker).
 
 Um ponto que vale a pena ressaltar é que o método perform que trabalha com closures só está disponível a partir do iOS 10.
 
